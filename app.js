@@ -16,8 +16,7 @@ window.addEventListener('load', () => {
             lat = posicion.coords.latitude
  
 
-            // const url = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&lang=es&units=metric&appid=ffd8bf936c938aa697354f61cf32ee74`
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=Azua,do&lang=es&units=metric&appid=ffd8bf936c938aa697354f61cf32ee74`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=Madrid&lang=es&units=metric&appid=ffd8bf936c938aa697354f61cf32ee74`
 
             fetch(url)
                 .then(response => { return response.json() })
